@@ -7,3 +7,6 @@ Today I Learned
 ### 180507
 * Machine Learning 정의 
 * TensorFlow 설치 및 hello world 출력 학습
+
+### 180509
+* boostcourse project1 강의

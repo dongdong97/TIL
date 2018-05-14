@@ -10,3 +10,6 @@ Today I Learned
 
 ### 180509
 * boostcourse project1 강의
+
+### 180514
+* C++ ESPRESSO 책 챕터별 연습문제 풀기

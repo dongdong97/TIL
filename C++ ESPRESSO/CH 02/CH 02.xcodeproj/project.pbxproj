@@ -91,16 +91,16 @@
 		CF08F27A20A9506F0048C0C8 /* CH 02 */ = {
 			isa = PBXGroup;
 			children = (
+				CF86300A20A97951002E9AA3 /* 10 recursion */,
+				CF86300920A97942002E9AA3 /* 09 variable */,
+				CF86300820A97932002E9AA3 /* 08 inline func */,
+				CF86300720A97913002E9AA3 /* 05_06_ func */,
+				CF86300620A97908002E9AA3 /* 04 for */,
+				CF86300420A978EF002E9AA3 /* 03 while */,
+				CF86300320A978C8002E9AA3 /* programming */,
+				CF86300220A978B6002E9AA3 /* 02 switch */,
 				CF08F29520A959D90048C0C8 /* 01 if_else */,
-				CF08F29620A959DD0048C0C8 /* 02 switch */,
-				CF08F29720A95A250048C0C8 /* 03 while */,
-				CF08F29820A95A5C0048C0C8 /* 04 for */,
-				CF08F29920A95A6C0048C0C8 /* 05_06 func */,
 				CF08F29A20A95A9D0048C0C8 /* 07 default */,
-				CF08F29D20A95C220048C0C8 /* 08 inline_func */,
-				CF08F2A020A95D8B0048C0C8 /* 09 variable */,
-				CF08F2A320A95E430048C0C8 /* 10 recursion */,
-				CF08F2A620A95F3A0048C0C8 /* programming */,
 			);
 			path = "CH 02";
 			sourceTree = "<group>";
@@ -114,41 +114,6 @@
 			path = "01 if_else";
 			sourceTree = "<group>";
 		};
-		CF08F29620A959DD0048C0C8 /* 02 switch */ = {
-			isa = PBXGroup;
-			children = (
-				CF08F28520A9522D0048C0C8 /* letter.cpp */,
-			);
-			name = "02 switch";
-			sourceTree = "<group>";
-		};
-		CF08F29720A95A250048C0C8 /* 03 while */ = {
-			isa = PBXGroup;
-			children = (
-				CF08F28720A954090048C0C8 /* while1.cpp */,
-				CF08F28B20A9551F0048C0C8 /* game.cpp */,
-				CF08F28D20A956AD0048C0C8 /* to_upper.cpp */,
-			);
-			name = "03 while";
-			sourceTree = "<group>";
-		};
-		CF08F29820A95A5C0048C0C8 /* 04 for */ = {
-			isa = PBXGroup;
-			children = (
-				CF08F28F20A9578F0048C0C8 /* factorial.cpp */,
-			);
-			name = "04 for";
-			sourceTree = "<group>";
-		};
-		CF08F29920A95A6C0048C0C8 /* 05_06 func */ = {
-			isa = PBXGroup;
-			children = (
-				CF08F29120A958960048C0C8 /* square.cpp */,
-				CF08F29320A959450048C0C8 /* overloaded_func.cpp */,
-			);
-			name = "05_06 func";
-			sourceTree = "<group>";
-		};
 		CF08F29A20A95A9D0048C0C8 /* 07 default */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,31 +122,15 @@
 			path = "07 default";
 			sourceTree = "<group>";
 		};
-		CF08F29D20A95C220048C0C8 /* 08 inline_func */ = {
+		CF86300220A978B6002E9AA3 /* 02 switch */ = {
 			isa = PBXGroup;
 			children = (
-				CF08F29E20A95C410048C0C8 /* inline.cpp */,
+				CF08F28520A9522D0048C0C8 /* letter.cpp */,
 			);
-			name = "08 inline_func";
+			path = "02 switch";
 			sourceTree = "<group>";
 		};
-		CF08F2A020A95D8B0048C0C8 /* 09 variable */ = {
-			isa = PBXGroup;
-			children = (
-				CF08F2A120A95DC70048C0C8 /* static.cpp */,
-			);
-			name = "09 variable";
-			sourceTree = "<group>";
-		};
-		CF08F2A320A95E430048C0C8 /* 10 recursion */ = {
-			isa = PBXGroup;
-			children = (
-				CF08F2A420A95E730048C0C8 /* factorial_recursion.cpp */,
-			);
-			name = "10 recursion";
-			sourceTree = "<group>";
-		};
-		CF08F2A620A95F3A0048C0C8 /* programming */ = {
+		CF86300320A978C8002E9AA3 /* programming */ = {
 			isa = PBXGroup;
 			children = (
 				CF08F2A720A95F520048C0C8 /* 01.cpp */,
@@ -190,7 +139,58 @@
 				CF08F2AD20A96ABA0048C0C8 /* 05.cpp */,
 				CF08F2AF20A96ED20048C0C8 /* 07.cpp */,
 			);
-			name = programming;
+			path = programming;
+			sourceTree = "<group>";
+		};
+		CF86300420A978EF002E9AA3 /* 03 while */ = {
+			isa = PBXGroup;
+			children = (
+				CF08F28720A954090048C0C8 /* while1.cpp */,
+				CF08F28B20A9551F0048C0C8 /* game.cpp */,
+				CF08F28D20A956AD0048C0C8 /* to_upper.cpp */,
+			);
+			path = "03 while";
+			sourceTree = "<group>";
+		};
+		CF86300620A97908002E9AA3 /* 04 for */ = {
+			isa = PBXGroup;
+			children = (
+				CF08F28F20A9578F0048C0C8 /* factorial.cpp */,
+			);
+			path = "04 for";
+			sourceTree = "<group>";
+		};
+		CF86300720A97913002E9AA3 /* 05_06_ func */ = {
+			isa = PBXGroup;
+			children = (
+				CF08F29120A958960048C0C8 /* square.cpp */,
+				CF08F29320A959450048C0C8 /* overloaded_func.cpp */,
+			);
+			path = "05_06_ func";
+			sourceTree = "<group>";
+		};
+		CF86300820A97932002E9AA3 /* 08 inline func */ = {
+			isa = PBXGroup;
+			children = (
+				CF08F29E20A95C410048C0C8 /* inline.cpp */,
+			);
+			path = "08 inline func";
+			sourceTree = "<group>";
+		};
+		CF86300920A97942002E9AA3 /* 09 variable */ = {
+			isa = PBXGroup;
+			children = (
+				CF08F2A120A95DC70048C0C8 /* static.cpp */,
+			);
+			path = "09 variable";
+			sourceTree = "<group>";
+		};
+		CF86300A20A97951002E9AA3 /* 10 recursion */ = {
+			isa = PBXGroup;
+			children = (
+				CF08F2A420A95E730048C0C8 /* factorial_recursion.cpp */,
+			);
+			path = "10 recursion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

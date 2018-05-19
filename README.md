@@ -13,3 +13,7 @@ Today I Learned
 
 ### 180514
 * C++ ESPRESSO 책 챕터별 연습문제 풀기
+
+### 180519
+* TensorFlow 설치 및 linear regression 구현 학습
+

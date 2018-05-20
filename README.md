@@ -17,3 +17,5 @@ Today I Learned
 ### 180519
 * TensorFlow 설치 및 linear regression 구현 학습
 
+### 180529
+* C++ ESPRESSO 책 ch 03 배열과 포인터 예제 다시 풀기

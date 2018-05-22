@@ -21,3 +21,7 @@ Today I Learned
 ### 180520
 * [C++ ESPRESSO 책 ch 03 배열과 포인터 예제 다시 풀기](https://github.com/dongdong97/TIL/tree/master/C%2B%2B%20ESPRESSO/CH%2003/CH%2003)
 
+### 180522
+* boostcourse project2 강의
+   * [강의 예제 풀기 : delegate, singleton, Target-Action](https://github.com/dongdong97/TIL/tree/master/Boost_Course/Project2_ex/imagePikerView)
+

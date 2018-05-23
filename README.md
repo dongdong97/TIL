@@ -25,3 +25,9 @@ Today I Learned
 * boostcourse project2 강의
    * [강의 예제 풀기 : delegate, singleton, Target-Action](https://github.com/dongdong97/TIL/tree/master/Boost_Course/Project2_ex/imagePikerView)
 
+### 180523
+* boostcourse project2 완성
+   * 프로젝트 완성 및 리뷰 대기
+* C++ ESPRESSO 책 챕터별 연습문제 풀기
+   * ch 04 객체지향언어
+   * ch 05 클래스

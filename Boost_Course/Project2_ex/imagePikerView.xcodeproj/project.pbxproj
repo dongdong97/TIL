@@ -16,6 +16,7 @@
 		C859441C20B4587A002134F2 /* FirstSingletonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859441B20B4587A002134F2 /* FirstSingletonVC.swift */; };
 		C859441E20B4588D002134F2 /* SecondSingletonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859441D20B4588D002134F2 /* SecondSingletonVC.swift */; };
 		C859442020B46090002134F2 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859441F20B46090002134F2 /* DatePickerVC.swift */; };
+		C859442220B46E3B002134F2 /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859442120B46E3B002134F2 /* GestureVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C859441B20B4587A002134F2 /* FirstSingletonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSingletonVC.swift; sourceTree = "<group>"; };
 		C859441D20B4588D002134F2 /* SecondSingletonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSingletonVC.swift; sourceTree = "<group>"; };
 		C859441F20B46090002134F2 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		C859442120B46E3B002134F2 /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C85943EB20B4511E002134F2 /* AppDelegate.swift */,
 				C85943ED20B4511E002134F2 /* ViewController.swift */,
 				C85943EF20B4511E002134F2 /* Main.storyboard */,
+				C859442120B46E3B002134F2 /* GestureVC.swift */,
 				C859441B20B4587A002134F2 /* FirstSingletonVC.swift */,
 				C859441D20B4588D002134F2 /* SecondSingletonVC.swift */,
 				C859441920B45805002134F2 /* UserInfomation.swift */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C859442220B46E3B002134F2 /* GestureVC.swift in Sources */,
 				C85943EE20B4511E002134F2 /* ViewController.swift in Sources */,
 				C859441C20B4587A002134F2 /* FirstSingletonVC.swift in Sources */,
 				C859441A20B45805002134F2 /* UserInfomation.swift in Sources */,

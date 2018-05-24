@@ -1,10 +1,9 @@
 ////
-////  car1.cpp
+////  car2.cpp
 ////  CH 05
 ////
-////  Created by 동균 on 2018. 5. 23..
+////  Created by 동균 on 2018. 5. 24..
 ////  Copyright © 2018년 동균. All rights reserved.
-////
 //
 //#include <iostream>
 //#include <string>
@@ -34,21 +33,14 @@
 //};
 //
 //int main() {
-//    Car myCar, yourCar;
+//    Car *dynCar = new Car;
 //    
-//    myCar.speed = 100;
-//    myCar.gear = 3;
-//    myCar.color = "red";
+//    dynCar->speed =100;
+//    dynCar->gear = 2;
+//    dynCar->color = "green";
+//    dynCar->speedUp();
+//    dynCar->show();
 //    
-//    yourCar.speed = 10;
-//    yourCar.gear = 1;
-//    yourCar.color = "blue";
-//    
-//    myCar.speedUp();
-//    yourCar.speedDown();
-//    
-//    myCar.show();
-//    yourCar.show();
-//    
+//    delete dynCar;
 //    return 0;
 //}

@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C82884CA20B54F02007B6B58 /* car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82884C920B54F02007B6B58 /* car.cpp */; };
 		C82884D120B5523D007B6B58 /* car1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82884D020B5523D007B6B58 /* car1.cpp */; };
+		C82AC98D20B6820D00682C32 /* car2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC98C20B6820D00682C32 /* car2.cpp */; };
+		C82AC98F20B683BC00682C32 /* employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC98E20B683BC00682C32 /* employee.cpp */; };
+		C82AC99120B6895E00682C32 /* car3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC99020B6895E00682C32 /* car3.cpp */; };
+		C82AC99320B68AC100682C32 /* car4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC99220B68AC100682C32 /* car4.cpp */; };
+		C82AC99520B691DA00682C32 /* desk_lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC99420B691DA00682C32 /* desk_lamp.cpp */; };
+		C82AC99720B692A100682C32 /* bank_account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC99620B692A100682C32 /* bank_account.cpp */; };
+		C82AC99920B6950800682C32 /* product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C82AC99820B6950800682C32 /* product.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +34,13 @@
 		C82884C620B54F02007B6B58 /* CH 05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CH 05"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82884C920B54F02007B6B58 /* car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = car.cpp; sourceTree = "<group>"; };
 		C82884D020B5523D007B6B58 /* car1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = car1.cpp; sourceTree = "<group>"; };
+		C82AC98C20B6820D00682C32 /* car2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = car2.cpp; sourceTree = "<group>"; };
+		C82AC98E20B683BC00682C32 /* employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = employee.cpp; sourceTree = "<group>"; };
+		C82AC99020B6895E00682C32 /* car3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = car3.cpp; sourceTree = "<group>"; };
+		C82AC99220B68AC100682C32 /* car4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = car4.cpp; sourceTree = "<group>"; };
+		C82AC99420B691DA00682C32 /* desk_lamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = desk_lamp.cpp; sourceTree = "<group>"; };
+		C82AC99620B692A100682C32 /* bank_account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bank_account.cpp; sourceTree = "<group>"; };
+		C82AC99820B6950800682C32 /* product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = product.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,13 @@
 			children = (
 				C82884C920B54F02007B6B58 /* car.cpp */,
 				C82884D020B5523D007B6B58 /* car1.cpp */,
+				C82AC98C20B6820D00682C32 /* car2.cpp */,
+				C82AC98E20B683BC00682C32 /* employee.cpp */,
+				C82AC99020B6895E00682C32 /* car3.cpp */,
+				C82AC99220B68AC100682C32 /* car4.cpp */,
+				C82AC99420B691DA00682C32 /* desk_lamp.cpp */,
+				C82AC99620B692A100682C32 /* bank_account.cpp */,
+				C82AC99820B6950800682C32 /* product.cpp */,
 			);
 			path = "CH 05";
 			sourceTree = "<group>";
@@ -121,8 +142,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82AC99520B691DA00682C32 /* desk_lamp.cpp in Sources */,
+				C82AC99720B692A100682C32 /* bank_account.cpp in Sources */,
 				C82884D120B5523D007B6B58 /* car1.cpp in Sources */,
+				C82AC98F20B683BC00682C32 /* employee.cpp in Sources */,
+				C82AC99920B6950800682C32 /* product.cpp in Sources */,
 				C82884CA20B54F02007B6B58 /* car.cpp in Sources */,
+				C82AC99120B6895E00682C32 /* car3.cpp in Sources */,
+				C82AC98D20B6820D00682C32 /* car2.cpp in Sources */,
+				C82AC99320B68AC100682C32 /* car4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,3 +31,14 @@ Today I Learned
 * C++ ESPRESSO 책 챕터별 연습문제 풀기
    * ch 04 객체지향언어
    * ch 05 클래스
+
+### 180524
+* C++ ESPRESSO 책 챕터별 연습문제 풀기
+   * ch 05 클래스 완성
+   
+### 180525 
+* DockGo어플 View 제작
+
+### 180526
+* boostcourse project3 예제 풀기
+

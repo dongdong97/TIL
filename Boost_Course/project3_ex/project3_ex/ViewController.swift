@@ -1,0 +1,94 @@
+//
+//  ViewController.swift
+//  project3_ex
+//
+//  Created by 동균 on 2018. 5. 27..
+//  Copyright © 2018년 동균. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource{
+
+    @IBOutlet weak var tableview: UITableView!
+    let cellIdentifier: String = "cell"
+    let customCellIdentifier: String = "customCell"
+    
+    let korean: [String] = ["가","나","다","라","마","바","사","아","자","차"]
+    let english: [String] = ["a","b","c","d","e","f"]
+    
+    var dates: [Date] = []
+    
+    let dateFormatter: DateFormatter = {
+        let formatter: DateFormatter = DateFormatter()
+        formatter.dateStyle = .medium
+        
+        return formatter
+    }()
+    let timeFormatter: DateFormatter = {
+        let formatter: DateFormatter = DateFormatter()
+        
+        formatter.timeStyle = .medium
+        return formatter
+    }()
+    
+    @IBAction func touchUpAddButton(_ sender: Any) {
+        dates.append(Date())
+        
+//        // 전체의 데이터를 다시 불러와 테이블 뷰 짜기
+//        self.tableview.reloadData()
+        
+        //해당하는 섹션의 데이터만 다시 불러와 그 섹션만 테이블뷰에 다시 나타나게 하기
+        self.tableview.reloadSections(IndexSet(2...2), with: UITableViewRowAnimation.automatic)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+
+    //섹션의 개수를 알려달라는 메소드
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
+    //섹션에 해당하는 row의 개수가 몇개인지 알려달라는 메소드
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        switch section {
+        case 0:
+            return korean.count
+        case 1:
+            return english.count
+        case 2:
+            return dates.count
+        default:
+            return 0
+        }
+    }
+    //row 마다 해당하는 셀을 돌려달라는 메소드
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if indexPath.section < 2{
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: self.cellIdentifier, for: indexPath)
+        let text: String = indexPath.section == 0 ? korean[indexPath.row] : english[indexPath.row]
+        cell.textLabel?.text = text
+            
+            return  cell
+        }else {
+            let cell: CustomTableViewCell = tableView.dequeueReusableCell(withIdentifier: self.customCellIdentifier, for: indexPath) as! CustomTableViewCell
+            cell.leftLabel.text = self.dateFormatter.string(from: self.dates[indexPath.row])
+            cell.rightLabel.text = self.timeFormatter.string(from: self.dates[indexPath.row])
+            
+            return cell
+        }
+    }
+    //섹션에 이름을 주는 메소드
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section < 2 {
+        return section == 0 ? "한글" : "영어"
+        }
+        return nil
+    }
+
+}
+

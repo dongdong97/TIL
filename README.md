@@ -42,3 +42,19 @@ Today I Learned
 ### 180526
 * boostcourse project3 예제 풀기
 
+### 180527
+* boostcourse project3 예제 풀기 완료
+
+### 180529
+* boostCourse project3 완성하기
+   * json 형식 매핑 완성
+   * 프로젝트 진행중
+   
+### 180530
+* boostCourse 정책상 모든 프로젝트 비공개 전환
+
+### 180531
+* aws 오픈 컨소시엄 강의 수료
+
+
+
